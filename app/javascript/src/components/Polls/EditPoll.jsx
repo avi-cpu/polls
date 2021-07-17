@@ -15,7 +15,6 @@ const EditTask = ({ history }) => {
   const { id } = useParams();
 
   const handleSubmit = async event => {
-    // event.preventDefault();
     try {
       event.preventDefault();
       setLoading(true);
